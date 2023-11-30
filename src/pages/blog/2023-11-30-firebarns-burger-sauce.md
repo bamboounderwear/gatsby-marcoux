@@ -6,6 +6,8 @@ description: I strategized and created an advertising campaign to promote the
   all-new burger sauce by Firebarns.
 featuredpost: true
 featuredimage: /img/burger-portfolio.jpg
+tags:
+  - marketing
 ---
 ## The power of a well-seasoned marketing mix.  
 
