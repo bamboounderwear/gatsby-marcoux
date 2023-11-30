@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/logo.svg";
+import logowhite from "../img/logo-white.png";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
@@ -13,9 +14,9 @@ const Footer = () => {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
           <img
-            src={logo}
+            src={logowhite}
             alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
+            style={{ width: "14em", height: "10em"}}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
