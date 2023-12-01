@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: "1.4rem" }} />
+            <img src={logo} alt="Kaldi" style={{ width: "140px" }} />
           </Link>
           {/* Hamburger menu */}
           <button
