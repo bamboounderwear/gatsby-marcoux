@@ -25,11 +25,12 @@ body
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400
+  height: 400px // Make sure to specify units
   position: relative
   left: 50%
   right: 50%
-  margin: 2em -50vw
+  margin-left: -50vw
+  margin-right: -50vw
   background-size: cover
   background-position: bottom
   display: flex
@@ -41,14 +42,9 @@ body
     height: 60vh // Adjust this value as needed
 
 .full-width-image
-  width: 100vw
-  height: 400
-  background-size: cover
-  background-position: bottom
-  display: flex
-  justify-content: center
-  align-items: center
-  
+  width: 100%
+  height: auto // This ensures the image maintains its aspect ratio
+
 .btn
     display: inline-block
     padding: 12px 16px 10px
