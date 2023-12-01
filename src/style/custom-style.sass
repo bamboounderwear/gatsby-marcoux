@@ -36,15 +36,19 @@ body
   justify-content: center
   align-items: center
 
-.full-width-image
-    width: 100vw
-    height: 400
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
+  // Media query for mobile devices
+  @media (max-width: 768px)
+    height: 60vh // Adjust this value as needed
 
+.full-width-image
+  width: 100vw
+  height: 400
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+  
 .btn
     display: inline-block
     padding: 12px 16px 10px
