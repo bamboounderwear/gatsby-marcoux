@@ -75,6 +75,7 @@ export default function FullWidthImage(props) {
                   lineHeight: "1",
                   padding: "0.25rem",
                   marginTop: "0.5rem",
+                  textAlign: "center",
                 }}
               >
                 {subheading}
