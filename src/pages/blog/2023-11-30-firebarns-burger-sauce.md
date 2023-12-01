@@ -9,3 +9,7 @@ tags:
   - marketing
 ---
 Heat up your burger game. Unveiled in a sizzle of strategy and creativity, we launched Firebarns' Burger Sauce with a campaign as bold as the flavor. A perfect blend of punchy copy, fiery visuals, and digital precision, we served an irresistible message that made taste buds and timelines buzz. Every click, a call to crave.
+
+![](/img/burger2-2-.jpg)
+
+![](/img/burger-image-3-.jpg)
