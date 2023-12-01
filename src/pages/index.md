@@ -3,7 +3,7 @@ templateKey: index-page
 title: Imagine. Create. Achieve.
 image: /img/juleshomepage.jpg
 heading: MARCOUX
-subheading: Where every campaign is art, driving sales and captivating audiences.
+subheading: Where every campaign is art – driving growth and captivating audiences.
 mainpitch:
   title: Why Kaldi
   description: >
