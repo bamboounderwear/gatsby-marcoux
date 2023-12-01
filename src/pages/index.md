@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Imagine. Create. Achieve.
-image: /img/juleshomepage.jpg
+image: /img/ezgif-2-7c0de9b74c.webp
 heading: MARCOUX
 subheading: Where every campaign is art – driving growth and captivating audiences.
 mainpitch:
