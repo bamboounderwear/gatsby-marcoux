@@ -22,33 +22,26 @@ export default function FullWidthImage(props) {
       >
         {img?.url ? (
           <img
-            src={img}
-            objectFit={"cover"}
-            objectPosition={imgPosition}
-            style={{
-              gridArea: "1/1",
-              // You can set a maximum height for the image, if you wish.
-              width: "100%",
-            }}
-            // This is a presentational image, so the alt should be an empty string
-            alt=""
-          />
+  src={img}
+  style={{
+    gridArea: "1/1",
+    width: "100%",
+    height: "70vh", // Set the height to 70vh
+    objectFit: "cover", // Cover the container without stretching
+  }}
+  alt=""
+/>
         ) : (
-          <GatsbyImage
-            image={img}
-            objectFit={"cover"}
-            objectPosition={imgPosition}
-            style={{
-              gridArea: "1/1",
-              // You can set a maximum height for the image, if you wish.
-            }}
-            layout="fullWidth"
-            // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
-            // This is a presentational image, so the alt should be an empty string
-            alt=""
-            formats={["auto", "webp", "avif"]}
-          />
+<GatsbyImage
+  image={img}
+  style={{
+    gridArea: "1/1",
+    height: "70vh", // Ensure the GatsbyImage also maintains 70vh height
+  }}
+  layout="fullWidth"
+  alt=""
+  formats={["auto", "webp", "avif"]}
+/>
         )}
         {(title || subheading) && (
           <div

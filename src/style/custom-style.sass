@@ -37,10 +37,11 @@ body
   justify-content: center
   align-items: center
 
-.full-width-image
+  .full-width-image
   width: 100%
-  height: auto // This ensures the image maintains its aspect ratio
-
+  height: 100% // This will fill the height of the .full-width-image-container
+  object-fit: cover // Ensures the aspect ratio is maintained without stretching
+  
 .btn
     display: inline-block
     padding: 12px 16px 10px
