@@ -7,11 +7,11 @@ description: A marketing campaign & video production for Martin Dessert I took
 featuredpost: true
 featuredimage: /img/buche1-copy.jpg
 ---
+![](/img/martin-dessert.gif)
+
 Crafting crave-worthy campaigns for Martin Dessert. We blend storytelling with flavor. Every post, picture, and ad, baked to perfection. It's not just marketing; it's Martin Dessert's recipe for connection. Dig into deliciousness.
 
 ![](/img/4.jpg)
-
-![](/img/ezgif-2-3704894303.gif)
 
 ![](/img/3.jpg)
 
